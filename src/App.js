@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./home/Home";
 import About from "./about/About";
 import "./App.css";
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="./" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/skils" element={<Skils />} />
           <Route exact path="/projects" element={<Projects />} />
