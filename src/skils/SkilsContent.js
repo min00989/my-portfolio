@@ -33,7 +33,7 @@ function SkilsContent() {
 
     return(
         <div className="Skils-container">
-            <div className="Skils-coment">SKILS</div>
+            <div className="Skils-coment">SKILLS</div>
             <div className="Skils-conainer_bg"  style={{ '--background-image': `url(${skilsback})` }} />
             <div className="Skils-conainer_logo">
                 <div className="Skils-conainer_logo1">

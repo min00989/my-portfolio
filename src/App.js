@@ -12,9 +12,9 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route exact path="./" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
-          <Route exact path="/skils" element={<Skils />} />
+          <Route exact path="/skills" element={<Skils />} />
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/contact" element={<Contact />} />
           {/* 추가적인 Route 설정을 여기에 넣을 수 있습니다 */}

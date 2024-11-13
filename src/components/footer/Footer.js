@@ -23,8 +23,8 @@ function Footer() {
                         <Link to="/about" className="navbar-link" onClick={scrollToTop}>
                             <div>About</div>
                         </Link>
-                        <Link to="/skils" className="navbar-link" onClick={scrollToTop}>
-                            <div>Skils</div>
+                        <Link to="/skills" className="navbar-link" onClick={scrollToTop}>
+                            <div>Skills</div>
                         </Link>
                         <Link to="/projects" className="navbar-link" onClick={scrollToTop}>
                             <div>Projects</div>

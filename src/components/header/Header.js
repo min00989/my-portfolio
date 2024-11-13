@@ -12,8 +12,8 @@ function Header() {
                 <Link to="/about" className="navbar-link">
                     <div className="Header_menu1">About</div>
                 </Link>
-                <Link to="/skils" className="navbar-link">
-                    <div className="Header_menu2">Skils</div>
+                <Link to="/skills" className="navbar-link">
+                    <div className="Header_menu2">Skills</div>
                 </Link>
                 <Link to="/projects" className="navbar-link">
                     <div className="Header_menu3">Projects</div>

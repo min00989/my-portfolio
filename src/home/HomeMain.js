@@ -85,7 +85,7 @@ function HomeMain() {
                     onClick={image.position === "center" ? handleCenterClick : null} // center일 때만 클릭 이벤트
                 />
                 ))}
-                </div>
+            </div>
             </div>
         </div>
     );
